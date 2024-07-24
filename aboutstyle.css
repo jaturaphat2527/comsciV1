@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about1 h1 {
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu {
+    display:flex;
+    list-style: none;
+}
+.menu li {
+    margin-left: 10px;
+}
+.banner{
+    background-color: teal;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    margin-top: 20px;
+}
+
+.banner-info {
+    text-align: center;
+
+}
+
+.banner-info img {
+    width: 350px;
+    border-radius: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+main div {
+    padding: 20px;
+    text-align: center;
+}
+main div p {
+    margin: 10px;
+}
+
+ main img {
+    width: 100%;
+    border-radius: 20px;
+
+main.banner-2 {
+   width: 200px;
+}
+ }
+ footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+ }
+ marquee{
+    font-size: 30px;
+    font-weight: 800;
+    color: #ff0000;
+    background-color:#ffa500 ;
+    font-family: oblique;
+    font-style: oblique;
+ }
+ footer marquee{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0000ff;
+    background-color:#ffa500 ;
+    font-family: oblique;
+    font-style: oblique;
+ }
